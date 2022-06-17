@@ -1,0 +1,113 @@
+/* heading */
+
+.heading {
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* heading leftside */
+.heading > .heading-leftside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.heading > .heading-leftside > .codespace-logo {
+    margin-right: 80px;
+}
+
+/* nav-bar */
+.heading > .heading-leftside > .nav-bar {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 350px;
+}
+
+/* spark-dropdown */
+.heading > .heading-leftside > .nav-bar > .spark-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(175, 165, 165);
+    width: 65px;
+}
+
+/* explore section */
+.heading > .heading-leftside > .nav-bar > .explore-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Roboto",sans-serif;
+    font-weight: 900;
+}
+
+.heading > .heading-leftside > .nav-bar > .explore-section > .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+}
+
+
+.heading > .heading-leftside > .nav-bar > .explore-section > .nav-links a {
+    margin-right: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.heading > .heading-leftside > .nav-bar > .explore-section > .explore-logo {
+    margin-bottom: 2px;
+}  
+
+.heading > .heading-leftside > .nav-bar > .explore-section > .explore-logo h1 {
+    color: #d3d01a;
+    margin: 0px;
+    font-size: medium;
+}
+
+/* right side */
+
+.heading > .right-side > .button-container {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heading > .right-side > .button-container button {
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 8px;
+}
+
+.heading > .right-side > .button-container button:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading > .right-side > .button-container button:nth-child(1) > .dropdown-icon {
+    margin-left: 28px;
+    font-size: medium;
+}
+
+
+.heading > .right-side > .button-container button:active {
+    background-color: blue;
+}
+
+.heading > .right-side > .button-container > .search-logo {
+    color: white;
+}
+
