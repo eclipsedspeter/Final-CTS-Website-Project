@@ -1,0 +1,66 @@
+@media (max-width: 1110px) {
+    .top-left-logo {
+        content: url(../images/codepen-small-logo.png);
+        width: 130px;
+        height: 100%;
+    }
+
+    /* heading */
+    .heading > .heading-leftside > .codespace-logo {
+        margin-right: -3%;
+        margin-left: -3%;
+    }
+
+    .heading > .heading-leftside {
+        width: 126px;
+    }
+
+    /* explore section */
+    .heading > .heading-leftside > .nav-bar {
+        visibility: hidden;
+        width: 0%;
+    }
+
+    /* heading right side */
+    .heading > .heading-rightside > .button-container button {
+        font-size: 1.35em;
+        height: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    /* page container */
+    .background-gradient > .page-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .background-gradient > .page-container > .left-column {
+        width: 90%;
+        margin: 5px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .background-gradient > .page-container > .left-column > .content-wrapper  {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .background-gradient > .page-container > .left-column > .content-wrapper p{
+       text-align: center;
+    }
+
+    /* footer */
+    .footer > .footer-section-wrapper {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

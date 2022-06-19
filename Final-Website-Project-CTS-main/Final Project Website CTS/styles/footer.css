@@ -1,0 +1,29 @@
+.footer {
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: rgb(25,26,29);
+}
+
+.footer > .footer-section-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer > .footer-section-wrapper div{
+    border: 2px solid rgb(69,69,69);
+    padding: 30px 58px;
+    width: 240px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgb(54,56,63);
+    color: white;
+}
+
+.footer > .footer-section-wrapper div > span {
+  font-size: 23px;
+  font-weight: 900;
+}
