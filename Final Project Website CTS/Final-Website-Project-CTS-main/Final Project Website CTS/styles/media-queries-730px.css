@@ -1,5 +1,0 @@
-@media (max-width: 730px) {
-    .footer > .footer-section-wrapper {
-        grid-template-columns: 1fr;
-    }
-}
