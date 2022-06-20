@@ -1,9 +1,8 @@
 .footer {
-    padding-bottom: 60px;
+    padding-bottom: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
     background-color: rgb(25,26,29);
 }
 
